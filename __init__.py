@@ -149,10 +149,9 @@ class PortraitMaster:
                 }),
                 "age": ("INT", {
                     "default": 30,
-                    "min": 18,
+                    "min": 5,
                     "max": 90,
-                    "step": 1,
-                    "display": "slider",
+                    "step": 1
                 }),
                 # "nationality_1": (nationality_list, {
                 #     "default": nationality_list[0],
