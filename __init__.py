@@ -134,8 +134,11 @@ class PortraitMaster:
                     "max": max_float_value,
                     "display": "slider",
                 }),
-                "gender": (gender_list, {
-                    "default": gender_list[0],
+                # "gender": (gender_list, {
+                #     "default": gender_list[0],
+                # }),
+                "gender": ("STRING", {
+                    "default": "Female",
                 }),
                 "androgynous": ("FLOAT", {
                     "default": 0,
@@ -151,8 +154,11 @@ class PortraitMaster:
                     "step": 1,
                     "display": "slider",
                 }),
-                "nationality_1": (nationality_list, {
-                    "default": nationality_list[0],
+                # "nationality_1": (nationality_list, {
+                #     "default": nationality_list[0],
+                # }),
+                "nationality_1": ("STRING", {
+                    "default": "Italian",
                 }),
                 "nationality_2": (nationality_list, {
                     "default": nationality_list[0],
